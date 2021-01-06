@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>change background</title>
+    <style>
+        body {
+            background: url("coffee.jpg");
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        
+        /* On screens that are 600px wide or less, the background color is olive */
+        @media screen and (max-width: 900px) {
+          body {
+            background:url("ice cream.jpg");
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+          }
+        }
+        </style>
+</head>
+<body>
+</body>
+</html>
