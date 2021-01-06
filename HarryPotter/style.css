@@ -1,0 +1,113 @@
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul{
+    display: block;
+    background-color:black;
+    height: 40px;
+    width: 90%;
+}
+ul.unfixedList{
+    position: absolute;
+    height: auto;
+    list-style-type: none;
+    width: 145px;
+    padding-left: 5px;
+    background-color: black;
+    font-weight: 800;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    display: none;
+}
+.ulli{
+    display: inline-block;
+    color: white;
+    font-weight: 900;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 150px;
+    margin: 2px;
+    text-align: center;
+}
+li:hover{
+    background-color: rgb(212, 42, 42);
+    cursor: pointer;
+}
+.ullib{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.ullib1{
+    margin-left: 50px;
+}
+.ulli:hover .unfixedList{
+    display: block;
+}
+.maindiv{
+    margin-top: 100px;
+}
+button, input[type="submit"]{
+    background-color:rgb(212, 42, 42);
+    border: none;
+    color: white;
+    font-weight: 900;
+    padding: 5px 20px 5px 10px;
+    display: inline-block;
+    border-radius: 12px;
+    width:150px;
+  }
+  .subdiv{
+      display: inline-block;
+      background-color: rgba(0,0,0,0.85);
+      width: 305px;
+      margin: 50px;
+      padding-left: 15px;
+      padding-bottom: 10px;
+  }
+  p{
+      color:white;
+      text-align: center;
+      font-weight: 900;
+  }
+  img{
+    display: inline-block;
+    margin:10px;
+    width: 40%;;
+    height:200px;
+  }
+  li button a:link,li button a:visited{
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+  }
+.signup{
+    width: 15%;
+    padding:15px;
+    background-color: rgba(0,0,0,0.85);
+    margin: auto;
+    margin-top: 10%;
+    overflow: auto;
+    color: white;
+    font-weight: 900;
+}
+form{
+    margin-left: 7% ;
+}
+input[type="submit"]{
+    display: inline-block;
+    margin-left: 7%;
+}
+div a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(151, 151, 151);
+}
+.unfixedList li a{
+    text-decoration: none;
+    font-weight: 800;
+    color:white;
+}
