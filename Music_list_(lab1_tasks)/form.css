@@ -1,0 +1,140 @@
+body{
+    background-image: url(bg.jpg);
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+nav {
+    overflow: hidden;
+    padding: 5px 5px  ;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* bounce effect */
+    -webkit-animation: bounce 1s ease-out;
+    -moz-animation: bounce 800ms ease-out;
+    -o-animation: bounce 800ms ease-out;
+    font-size: x-large;
+    animation: bounce 1s ease-out;
+  }
+  nav .nav-logo, 
+  nav .nav-items{
+    display: inline-block;
+    float: left;
+  }
+  nav .nav-logo{
+    padding-left:10px;
+    width:25%;
+}
+  
+  /* Nav Bar Logo Effect*/
+nav .nav-logo p:hover{
+  font-weight: bolder;
+  font-size:xx-large;
+  transition: font-size 0.2s;    
+}  
+nav .nav-logo p{
+    color:#8ae4ff;
+    letter-spacing:.9px;
+    font-size: 28px;
+    font-weight: 800;
+  }
+nav .nav-items{width: 60%;}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul a {
+    color:#8ae4ff;
+    letter-spacing: 1px;
+    text-decoration: none;
+}  
+nav ul  a:hover{
+    font-weight: bolder;
+    font-size:larger;
+    transition: font-size 0.2s;
+}
+/****************************/
+nav .nav-login{display: inline-block; float:right;}
+  nav .nav-login button{
+      cursor: pointer;
+      background-color: transparent;
+      border:1px solid#8ae4ff;
+      padding: 10px 40px;
+      border-radius: 10px;
+      color:#8ae4ff;
+      font-weight: bold;
+      font-size:large ;
+      outline:none;
+}
+  /* Nav Bar Logoin Button Effect*/
+  nav .nav-login button:hover{
+      background-color: #18647a;
+      color: #fff;
+      font-size: x-large;
+      transition: font-size 0.2s;
+}
+
+.myform{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+    height: 63vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-top: 20px;
+    border: #06627c 7px solid;
+}
+label{
+    display: inline block;
+    margin: 5px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+#name, #email, #password, #age{
+    display: inline-block;
+    border-color: #73cde6;
+    border-radius: 15px;
+    border-width: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 25px;
+    width: 200px;
+    color: #03222b;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 25px;
+}
+input[type=submit]{
+    display:  block;
+    height: 40px;
+    border-color:#4baac4;
+    border-width: 3px;
+    color: #fff;
+    margin-top: 10%;
+    margin-left: 5%;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 90%;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+input[type=submit]:hover{
+    box-shadow: 0 5px 10px 0 #4baac4 inset,0 5px 10px 0 #4baac4 ,0 5px 10px 0 #4baac4 inset,0 5px 10px 0 #4baac4;
+    text-shadow: 0 0 3px #4baac4 ,0 0 3px #4baac4;
+}
+input [type=range]{
+    display: inline-block;
+}
+output{
+    display:  block;
+    widows: 100%;
+    margin-left: 55%;
+    color: white;
+}

@@ -1,0 +1,138 @@
+body{
+    background-image: url(bg.jpg);
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+nav {
+    overflow: hidden;
+    padding: 5px 5px  ;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* bounce effect */
+    -webkit-animation: bounce 1s ease-out;
+    -moz-animation: bounce 800ms ease-out;
+    -o-animation: bounce 800ms ease-out;
+    font-size: x-large;
+    animation: bounce 1s ease-out;
+  }
+  nav .nav-logo, 
+  nav .nav-items{
+    display: inline-block;
+    float: left;
+  }
+  nav .nav-logo{
+    padding-left:10px;
+    width:25%;
+}
+  
+  /* Nav Bar Logo Effect*/
+nav .nav-logo p:hover{
+  font-weight: bolder;
+  font-size:xx-large;
+  transition: font-size 0.2s;    
+}  
+nav .nav-logo p{
+    color:#8ae4ff;
+    letter-spacing:.9px;
+    font-size: 28px;
+    font-weight: 800;
+  }
+nav .nav-items{width: 60%;}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul a {
+    color:#8ae4ff;
+    letter-spacing: 1px;
+    text-decoration: none;
+}  
+nav ul  a:hover{
+    font-weight: bolder;
+    font-size:larger;
+    transition: font-size 0.2s;
+}
+/****************************/
+nav .nav-login{display: inline-block; float:right;}
+  nav .nav-login button{
+      cursor: pointer;
+      background-color: transparent;
+      border:1px solid#8ae4ff;
+      padding: 10px 40px;
+      border-radius: 10px;
+      color:#8ae4ff;
+      font-weight: bold;
+      font-size:large ;
+      outline:none;
+}
+  /* Nav Bar Logoin Button Effect*/
+  nav .nav-login button:hover{
+      background-color: #18647a;
+      color: #fff;
+      font-size: x-large;
+      transition: font-size 0.2s;
+}
+.audiocls,table{
+    padding-top: 15px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    background-image: url(gift.jpg);
+    margin-top: 5%;
+    height: 22vh;
+}
+table{
+    margin-top: 10px;
+    padding: 0px;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+.audiocls audio{
+    height: 40px;
+    width: 96%;
+}
+.control_btns button{
+    margin-top: 15px;
+    width: 20%;
+    margin-left: 2%;
+    height: 40px;
+    background-color: #18647a;
+}
+#shuffle{
+    margin-left: 0px;
+}
+#cur_playing{
+    color: #b6ebfc;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+img{
+    height: 35px;
+    width: 60px;
+}
+td{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #b6ebfc;
+    cursor: pointer;
+    border: #8ae4ff 1px solid;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;  
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: #7e888b;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <title>Register MC</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <p>Music<span>Store</span></p>
+        </div>
+             <div class="nav-items">
+                 <ul>
+                     <li><a href="page.html">Home</a></li>
+                     <li><a href="music.html">Music List</a></li>
+                     <li><a href="page.html">Shop</a></li>
+                     <li><a href="page.html">about</a></li>
+                 </ul>
+             </div>
+             <div class="nav-login">
+                <button>Register</button>
+            </div>
+     </nav>
+
+    <div class="myform">
+    <form action="#" oninput="res.value = '$'+salary.value">
+        <label>Name:</label>
+        <input type="text" id="name" required autofocus><br/>
+        <label>Email:</label>
+        <input type="email" id="email" required ><br/>
+        <label>Pass:</label>
+        <input type="password" id="password" minlength="8" required><br/> <br/> <br/>
+        <label>Salary:</label>
+        <input type="range" value="500" max="1000" id="salary" required><br/>
+        <output name='res'></output>
+        <label>Age :</label>
+        <input type="number" id="age" required min="21"><br/>
+        <input type="submit" id="register" value="Register"><br/>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="music.css">
+    <title>My Music</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <p>Music<span>Store</span></p>
+        </div>
+             <div class="nav-items">
+                 <ul>
+                     <li><a href="page.html">Home</a></li>
+                     <li><a href="music.html">Music List</a></li>
+                     <li><a href="page.html">Shop</a></li>
+                     <li><a href="page.html">about</a></li>
+                 </ul>
+             </div>
+             <div class="nav-login">
+                <button>Register</button>
+            </div>
+     </nav>
+
+    <div class="audiocls">
+     <div id="cur_playing">.......</div><br/>
+     <section id="cur_audio">
+        <audio controls >
+            <source src='Bach_Violin_Concerto_in A_minor.mp3' type='audio/mpeg'>
+            </source>
+        </audio>
+     </section>
+     <section class="control_btns">
+         <button id="shuffle">Shuffle</button>
+         <button id="repeat">Repeat</button>
+         <button id="play">Play</button>
+     </section>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td id="one">Bach_Violin_Concerto_in A_minor.mp3</td>
+                <td><img src="delete.PNG"></td>
+            </tr>
+            <tr>
+                <td id="two">Kiss_of_fire_violin.mp3</td>
+                <td><img src="delete.PNG"></td>
+            </tr>
+            <tr>
+                <td id="three">Summer_nights_dreams.mp3</td>
+                <td><img src="delete.PNG"></td>
+            </tr>
+            <tr>
+                <td id="four">Shadows_Lindsey_Stirling.mp3</td>
+                <td><img src="delete.PNG"></td>
+            </tr>
+            <tr>
+                <td id="five">Interstellar_Main_Theme.mp3</td>
+                <td><img src="delete.PNG"></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        Now you Can upload your Songs: 
+        <input class="someClass" type="file" name="UploadAudio" accept="audio/mp3"/>
+    </footer>
+
+    <script src="music.js"></script>
+</body>
+</html>

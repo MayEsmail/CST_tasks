@@ -1,0 +1,102 @@
+body{
+    background-image: url(bg.jpg);
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+nav {
+    overflow: hidden;
+    padding: 5px 5px  ;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* bounce effect */
+    -webkit-animation: bounce 1s ease-out;
+    -moz-animation: bounce 800ms ease-out;
+    -o-animation: bounce 800ms ease-out;
+    font-size: x-large;
+    animation: bounce 1s ease-out;
+  }
+  nav .nav-logo, 
+  nav .nav-items{
+    display: inline-block;
+    float: left;
+  }
+  nav .nav-logo{
+    padding-left:10px;
+    width:25%;
+}
+  
+  /* Nav Bar Logo Effect*/
+nav .nav-logo p:hover{
+  font-weight: bolder;
+  font-size:xx-large;
+  transition: font-size 0.2s;    
+}  
+nav .nav-logo p{
+    color:#8ae4ff;
+    letter-spacing:.9px;
+    font-size: 28px;
+    font-weight: 800;
+  }
+nav .nav-items{width: 60%;}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul a {
+    color:#8ae4ff;
+    letter-spacing: 1px;
+    text-decoration: none;
+}  
+nav ul  a:hover{
+    font-weight: bolder;
+    font-size:larger;
+    transition: font-size 0.2s;
+}
+/****************************/
+nav .nav-login{display: inline-block; float:right;}
+  nav .nav-login button{
+      cursor: pointer;
+      background-color: transparent;
+      border:1px solid#8ae4ff;
+      padding: 10px 40px;
+      border-radius: 10px;
+      color:#8ae4ff;
+      font-weight: bold;
+      font-size:large ;
+      outline:none;
+}
+  /* Nav Bar Logoin Button Effect*/
+  nav .nav-login button:hover{
+      background-color: #18647a;
+      color: #fff;
+      font-size: x-large;
+      transition: font-size 0.2s;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;  
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+section{
+    width: 100%;
+    text-align: center;
+    margin-top: 9%;
+    font-size: x-large;
+    color: white;
+    font-weight: 900;
+}
+img{
+    width: 600px;
+}
+summary{
+    cursor: pointer;
+}
